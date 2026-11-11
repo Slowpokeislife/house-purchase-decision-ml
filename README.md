@@ -1,4 +1,4 @@
-# 🏠 House Purchase Decision Prediction
+# House Purchase Decision Prediction
 
 **A reproducible tabular deep-learning case study using TensorFlow/Keras, Optuna and careful holdout evaluation.**
 
