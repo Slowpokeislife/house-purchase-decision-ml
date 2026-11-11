@@ -1,0 +1,40 @@
+# Credentials / environment
+.env
+.env.*
+!.env.example
+*.token
+*secret*
+credentials.json
+kaggle.json
+.netrc
+# Datasets and artifacts
+data/raw/
+data/processed/
+artifacts/
+models/
+outputs/
+mlruns/
+mlartifacts/
+optuna*.db
+*.sqlite3
+*.db
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.parquet
+*.csv
+# Python notebooks and local caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.envrc
+.DS_Store
+# Local IDE
+.vscode/
+.idea/
+# Keep deliberate examples
+!data/README.md

@@ -1,0 +1,2 @@
+# Full training environment (prefer: pip install -e ".[train,app]")
+-e .[train,app]
